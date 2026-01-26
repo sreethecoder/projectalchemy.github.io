@@ -1,0 +1,94 @@
+/* -------- Base Layout -------- */
+body {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  margin: 0;
+  background-color: #f8f9fb;
+  color: #333;
+  line-height: 1.7;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+/* -------- Header -------- */
+header {
+  background: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1a73e8;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #1a73e8;
+}
+
+/* -------- Hero Section -------- */
+.hero {
+  background: linear-gradient(135deg, #1a73e8, #4f8df7);
+  color: #ffffff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 18px;
+  max-width: 700px;
+  margin: auto;
+}
+
+/* -------- Content -------- */
+section {
+  margin-top: 50px;
+}
+
+section h2 {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.04);
+}
+
+/* -------- Footer -------- */
+footer {
+  background: #ffffff;
+  border-top: 1px solid #e5e7eb;
+  margin-top: 60px;
+}
+
+footer .container {
+  text-align: center;
+  font-size: 14px;
+  color: #777;
+}
