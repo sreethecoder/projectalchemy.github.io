@@ -169,3 +169,28 @@ footer {
   font-style: italic;
   color: #4b5563;
 }
+/* ===== Top Right Share Button ===== */
+.blog-post {
+  position: relative;
+}
+
+.share-top {
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+
+.share-top a {
+  font-size: 13px;
+  color: #0a66c2;
+  border: 1px solid #dce6f1;
+  padding: 6px 10px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  background: #f0f6fc;
+}
+
+.share-top a:hover {
+  background: #e2efff;
+}
