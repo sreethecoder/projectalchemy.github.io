@@ -194,25 +194,17 @@ footer {
   background-color: #004182;
   transform: translateY(-1px);
 }
-/* ===== Blog Home Button ===== */
-.blog-home-btn {
-  max-width: 1100px;
-  margin: 24px auto 0;
-  padding: 0 16px;
-}
-
-.blog-home-btn a {
-  display: inline-block;
+/* Blog Home button in header */
+.blog-home-nav {
   background-color: #f0f6fc;
   color: #0a66c2;
-  border: 1px solid #dce6f1;
   padding: 8px 14px;
   border-radius: 6px;
   text-decoration: none;
-  font-size: 14px;
   font-weight: 500;
+  border: 1px solid #dce6f1;
 }
 
-.blog-home-btn a:hover {
+.blog-home-nav:hover {
   background-color: #e2efff;
 }
