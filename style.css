@@ -208,3 +208,49 @@ footer {
 .blog-home-nav:hover {
   background-color: #e2efff;
 }
+/* ===== Free Templates Page ===== */
+
+.templates-page {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.templates-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 24px;
+  margin-top: 32px;
+}
+
+.template-card {
+  border: 1px solid #dce6f1;
+  border-radius: 10px;
+  padding: 20px;
+  background: #ffffff;
+}
+
+.template-card h2 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+.template-card p {
+  font-size: 14px;
+  color: #374151;
+  margin-bottom: 16px;
+}
+
+.download-btn {
+  display: inline-block;
+  background-color: #0a66c2;
+  color: #ffffff;
+  padding: 10px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.download-btn:hover {
+  background-color: #004182;
+}
