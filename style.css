@@ -249,6 +249,30 @@ footer {
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
+
+  /* Header navigation buttons */
+.blog-home-nav,
+.templates-nav {
+  background-color: #f0f6fc;
+  color: #0a66c2;
+  padding: 8px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 500;
+  border: 1px solid #dce6f1;
+  font-size: 14px;
+}
+
+.blog-home-nav:hover,
+.templates-nav:hover {
+  background-color: #e2efff;
+}
+
+/* spacing between buttons */
+nav a + a {
+  margin-left: 10px;
+}
+
 }
 
 .download-btn:hover {
