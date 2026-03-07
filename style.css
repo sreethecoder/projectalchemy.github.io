@@ -318,3 +318,19 @@ color:#374151;
   border-top: 1px solid #e5e7eb;
   color: #374151;
 }
+.pmp-table{
+width:100%;
+border-collapse:collapse;
+margin-top:15px;
+}
+
+.pmp-table th,
+.pmp-table td{
+border:1px solid #e5e7eb;
+padding:10px;
+text-align:left;
+}
+
+.pmp-table th{
+background:#f5f7fb;
+}
