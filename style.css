@@ -309,12 +309,12 @@ color:#374151;
 }
 
 
-/* Answer */
+/* Answer hidden by default */
 
-.answer{
-display:none;
-margin-top:15px;
-padding-top:15px;
-border-top:1px solid #e5e7eb;
-color:#374151;
+.answer {
+  display: none;
+  margin-top: 15px;
+  padding-top: 15px;
+  border-top: 1px solid #e5e7eb;
+  color: #374151;
 }
