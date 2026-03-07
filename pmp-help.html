@@ -4,74 +4,132 @@
 <meta charset="UTF-8">
 <title>PMP Help | Project Alchemy</title>
 <link rel="stylesheet" href="style.css">
+
+<script>
+function toggleAnswer(id){
+  const el = document.getElementById(id);
+  el.style.display = el.style.display === "block" ? "none" : "block";
+}
+</script>
+
 </head>
 
 <body>
 
 <header>
 <div class="container header">
+
 <div class="logo">
-<a href="index.html">Project <span>Alchemy</span></a>
+<a href="index.html">Project<span>Alchemy</span></a>
 </div>
 
 <nav>
-<a href="index.html">Blog Home</a>
+<a href="index.html">Blog</a>
 <a href="free-templates.html">Free Templates</a>
+<a href="pmp-help.html">PMP Help</a>
 </nav>
+
 </div>
 </header>
 
-<div class="container">
 
-<div class="pmp-layout">
+<div class="container pmp-layout">
 
-<!-- LEFT SIDEBAR -->
+<!-- Sidebar -->
+
 <aside class="pmp-sidebar">
 
-<h3>PMP Resources</h3>
+<h3>PMP Help</h3>
 
-<ul>
+<a class="sidebar-link active">PMP Questions</a>
 
-<li><strong>PMP Questions</strong></li>
-
-<li><a href="pmp-q1.html">Question 1</a></li>
-<li><a href="pmp-q2.html">Question 2</a></li>
-<li><a href="pmp-q3.html">Question 3</a></li>
-<li><a href="pmp-q4.html">Question 4</a></li>
-<li><a href="pmp-q5.html">Question 5</a></li>
-
-<li class="menu-space"></li>
-
-<li>
-<a href="pmp-2026-changes.html">
+<a class="sidebar-link" href="pmp-2026-changes.html">
 What’s Changing in PMP 2026
 </a>
-</li>
-
-</ul>
 
 </aside>
 
-<!-- RIGHT CONTENT AREA -->
+
+<!-- Content -->
 
 <section class="pmp-content">
 
-<h1>PMP Help Center</h1>
+<h1>PMP Practice Questions</h1>
 
-<p>
-This section will include PMP practice questions,
-exam insights, and updates related to the PMP certification.
+<p class="pmp-intro">
+Click on a question to reveal the correct answer and explanation.
 </p>
 
+
+<!-- Question 1 -->
+
+<div class="question-card" onclick="toggleAnswer('q1')">
+
+<h3>
+A project manager is managing a project where stakeholders frequently request scope changes.  
+What should the project manager do first?
+</h3>
+
+<ul class="options">
+
+<li>A. Reject the change</li>
+<li>B. Escalate to the sponsor</li>
+<li>C. Follow the change control process</li>
+<li>D. Update the schedule</li>
+
+</ul>
+
+<div id="q1" class="answer">
+
+<strong>Correct Answer: C — Follow the change control process</strong>
+
 <p>
-Use the menu on the left to explore available resources.
+The project manager should evaluate the change request through the formal
+change control process before accepting or rejecting it.
+This ensures proper impact analysis on scope, schedule, and cost.
 </p>
+
+</div>
+
+</div>
+
+
+<!-- Question 2 -->
+
+<div class="question-card" onclick="toggleAnswer('q2')">
+
+<h3>
+A team member reports a risk that could delay the project.  
+What should the project manager do next?
+</h3>
+
+<ul class="options">
+
+<li>A. Ignore the risk</li>
+<li>B. Add it to the risk register</li>
+<li>C. Escalate immediately</li>
+<li>D. Change the schedule</li>
+
+</ul>
+
+<div id="q2" class="answer">
+
+<strong>Correct Answer: B — Add it to the risk register</strong>
+
+<p>
+All identified risks should be recorded in the risk register
+and assessed for probability and impact before mitigation actions are taken.
+</p>
+
+</div>
+
+</div>
+
 
 </section>
 
 </div>
 
-</div>
 
 <footer>
 <div class="container footer">
