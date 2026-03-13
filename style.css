@@ -329,6 +329,29 @@ margin-top:15px;
 border:1px solid #e5e7eb;
 padding:10px;
 text-align:left;
+
+/* LinkedIn Share Button */
+
+.linkedin-share-btn{
+
+display:inline-block;
+background:#0a66c2;
+color:#ffffff;
+padding:8px 14px;
+border-radius:6px;
+text-decoration:none;
+font-size:14px;
+font-weight:500;
+transition:all 0.2s ease;
+
+}
+
+.linkedin-share-btn:hover{
+
+background:#084c99;
+color:white;
+
+}
 }
 
 .pmp-table th{
